@@ -1,0 +1,25 @@
+airport_project/
+|-- frontend/
+|   |-- react_app/
+|   |   |-- src/
+|   |   |   |-- components/
+|   |   |   |   |-- AirportInfo.js
+|   |   |   |-- App.js
+|   |   |   |-- index.js
+|   |-- angular_admin/
+|   |   |-- src/
+|   |   |   |-- app/
+|   |   |   |   |-- airport-info/
+|   |   |   |   |   |-- airport-info.component.html
+|   |   |   |   |   |-- airport-info.component.ts
+|   |   |   |   |   |-- airport-info.service.ts
+|   |   |   |   |-- app.module.ts
+|   |   |   |-- index.html
+|-- backend/
+|   |-- app/
+|   |   |-- __init__.py
+|   |   |-- models.py
+|   |   |-- routes.py
+|   |   |-- config.py
+|-- requirements.txt
+|-- run.py
