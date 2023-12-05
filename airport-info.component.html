@@ -1,0 +1,14 @@
+<!-- frontend/angular_admin/src/app/airport-info/airport-info.component.html -->
+
+<div>
+    <h2>Airport Information</h2>
+    <label for="airportCode">Enter Airport Code:</label>
+    <input type="text" id="airportCode" [(ngModel)]="airportCode" />
+    <button (click)="fetchAirportInfo()">Fetch Airport Info</button>
+    <div *ngIf="airportInfo">
+        <p>Code: {{ airportInfo.code }}</p>
+        <p>Name: {{ airportInfo.name }}</p>
+        <p>City: {{ airportInfo.city }}</p>
+        <p>Country: {{ airportInfo.country }}</p>
+    </div>
+</div>
